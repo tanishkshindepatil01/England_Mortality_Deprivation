@@ -1,0 +1,6 @@
+IndicatorID,IndicatorName,Authorities,AvailableRates,MissingRates,Similar,Better,Worse,Not compared
+90801,Child mortality rate (1 to 17 years),132,114,18,105,3,6,18
+92196,Infant mortality rate,296,291,5,238,28,25,5
+92530,Stillbirth rate,296,287,9,263,12,12,9
+92705,Neonatal mortality rate,132,130,2,96,16,18,2
+92706,Post-neonatal mortality rate,132,121,11,109,3,9,11

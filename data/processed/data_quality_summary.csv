@@ -1,0 +1,16 @@
+Metric,Value,NumericValue,Status,Notes
+Fingertips raw rows,"29,336",29336.0,PASS,
+Required mortality indicators,5/5,5.0,PASS,Missing: []
+National trend periods,22,22.0,PASS,Three-year rolling reporting periods available.
+National trend duplicate keys,0,0.0,PASS,Key = IndicatorID + TimePeriod.
+Latest local duplicate keys,0,0.0,PASS,Key = IndicatorID + AreaCode.
+Latest local authority codes,296,296.0,PASS,
+Latest local rows with unavailable/suppressed Value,45,45.0,WARN,Preserved as missing; ValueNote explains many official suppressions/non-publications.
+Latest local invalid 95% CI bounds,0,0.0,PASS,Expected LowerCI95 <= Value <= UpperCI95.
+Nomis England LA codes per year,2022: 296; 2023: 296; 2024: 296,296.0,PASS,Population data filtered to AreaCode beginning E.
+Nomis population match to latest Fingertips LA codes,296/296,100.0,PASS,Joined by official AreaCode.
+IMD 2019 match to current Fingertips LA codes,289/296,97.63513513513513,WARN,Unmatched current authorities are retained with null IMD fields; no unsupported boundary crosswalk is invented.
+IMD unmatched current authority codes,E06000060 Buckinghamshire UA; E06000063 Cumberland; E06000061 North Northamptonshire; E06000065 North Yorkshire UA; E06000066 Somerset UA; E06000062 West Northamptonshire; E06000064 Westmorland and Furness,,WARN,These reflect 2019 versus April-2023 geography changes.
+Child mortality denominator median absolute % difference vs Nomis 2022-24 population sum,0.95%,0.9456553381858037,PASS,Validation only; the Fingertips denominator remains authoritative.
+IMD raw LSOAs,"32,844",32844.0,PASS,
+IMD 2019 LADs,317,317.0,PASS,

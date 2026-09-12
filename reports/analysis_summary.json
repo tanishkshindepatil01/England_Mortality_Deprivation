@@ -1,0 +1,196 @@
+{
+  "input_rows": {
+    "mortality_trends": 110,
+    "local_authority_comparison": 988,
+    "deprivation_inequality": 988,
+    "indicator_definitions": 5,
+    "data_quality_summary": 15
+  },
+  "validation": {
+    "national_duplicate_keys": 0,
+    "local_duplicate_keys": 0,
+    "deprivation_duplicate_keys": 0,
+    "local_deprivation_keys_match": true,
+    "local_deprivation_mortality_values_match": true,
+    "reported_interval_bounds_valid": true,
+    "latest_definitions_match": true
+  },
+  "national": [
+    {
+      "IndicatorID": "90801",
+      "IndicatorName": "Child mortality rate (1 to 17 years)",
+      "RateUnit": "per 100,000",
+      "PeriodCount": 22,
+      "EarliestPeriod": "2001 - 03",
+      "EarliestValue": 18.04295,
+      "LatestPeriod": "2022 - 24",
+      "LatestValue": 11.5939085658285,
+      "AbsoluteChange": -6.449041434171502,
+      "FullPeriodChangePct": -35.74272186184355,
+      "LowestPeriod": "2019 - 21",
+      "LowestValue": 10.04487,
+      "ChangeFromLowPct": 15.421190775276328
+    },
+    {
+      "IndicatorID": "92196",
+      "IndicatorName": "Infant mortality rate",
+      "RateUnit": "per 1,000",
+      "PeriodCount": 22,
+      "EarliestPeriod": "2001 - 03",
+      "EarliestValue": 5.35682,
+      "LatestPeriod": "2022 - 24",
+      "LatestValue": 4.16609348978379,
+      "AbsoluteChange": -1.1907265102162103,
+      "FullPeriodChangePct": -22.22823447896719,
+      "LowestPeriod": "2014 - 16",
+      "LowestValue": 3.87622,
+      "ChangeFromLowPct": 7.478251744838782
+    },
+    {
+      "IndicatorID": "92530",
+      "IndicatorName": "Stillbirth rate",
+      "RateUnit": "per 1,000",
+      "PeriodCount": 22,
+      "EarliestPeriod": "2001 - 03",
+      "EarliestValue": 5.55093,
+      "LatestPeriod": "2022 - 24",
+      "LatestValue": 3.89970163317499,
+      "AbsoluteChange": -1.65122836682501,
+      "FullPeriodChangePct": -29.746877853350885,
+      "LowestPeriod": "2018 - 20",
+      "LowestValue": 3.88143,
+      "ChangeFromLowPct": 0.4707448846170026
+    },
+    {
+      "IndicatorID": "92705",
+      "IndicatorName": "Neonatal mortality rate",
+      "RateUnit": "per 1,000",
+      "PeriodCount": 22,
+      "EarliestPeriod": "2001 - 03",
+      "EarliestValue": 3.60844,
+      "LatestPeriod": "2022 - 24",
+      "LatestValue": 3.06500850253027,
+      "AbsoluteChange": -0.5434314974697299,
+      "FullPeriodChangePct": -15.060012012662805,
+      "LowestPeriod": "2013 - 15",
+      "LowestValue": 2.70798,
+      "ChangeFromLowPct": 13.184310908140763
+    },
+    {
+      "IndicatorID": "92706",
+      "IndicatorName": "Post-neonatal mortality rate",
+      "RateUnit": "per 1,000",
+      "PeriodCount": 22,
+      "EarliestPeriod": "2001 - 03",
+      "EarliestValue": 1.74838,
+      "LatestPeriod": "2022 - 24",
+      "LatestValue": 1.10108498725352,
+      "AbsoluteChange": -0.64729501274648,
+      "FullPeriodChangePct": -37.02255875418845,
+      "LowestPeriod": "2020 - 22",
+      "LowestValue": 1.06985,
+      "ChangeFromLowPct": 2.919566972334442
+    }
+  ],
+  "local_coverage": [
+    {
+      "IndicatorID": "90801",
+      "IndicatorName": "Child mortality rate (1 to 17 years)",
+      "Authorities": 132,
+      "AvailableRates": 114,
+      "MissingRates": 18,
+      "Similar": 105,
+      "Better": 3,
+      "Worse": 6,
+      "Not compared": 18
+    },
+    {
+      "IndicatorID": "92196",
+      "IndicatorName": "Infant mortality rate",
+      "Authorities": 296,
+      "AvailableRates": 291,
+      "MissingRates": 5,
+      "Similar": 238,
+      "Better": 28,
+      "Worse": 25,
+      "Not compared": 5
+    },
+    {
+      "IndicatorID": "92530",
+      "IndicatorName": "Stillbirth rate",
+      "Authorities": 296,
+      "AvailableRates": 287,
+      "MissingRates": 9,
+      "Similar": 263,
+      "Better": 12,
+      "Worse": 12,
+      "Not compared": 9
+    },
+    {
+      "IndicatorID": "92705",
+      "IndicatorName": "Neonatal mortality rate",
+      "Authorities": 132,
+      "AvailableRates": 130,
+      "MissingRates": 2,
+      "Similar": 96,
+      "Better": 16,
+      "Worse": 18,
+      "Not compared": 2
+    },
+    {
+      "IndicatorID": "92706",
+      "IndicatorName": "Post-neonatal mortality rate",
+      "Authorities": 132,
+      "AvailableRates": 121,
+      "MissingRates": 11,
+      "Similar": 109,
+      "Better": 3,
+      "Worse": 9,
+      "Not compared": 11
+    }
+  ],
+  "infant_quintiles": [
+    {
+      "Quintile": "Q1 Least deprived",
+      "AssignedAuthorities": 47,
+      "AvailableRates": 47,
+      "MeanRatePer1000": 3.373901985166298
+    },
+    {
+      "Quintile": "Q2",
+      "AssignedAuthorities": 48,
+      "AvailableRates": 48,
+      "MeanRatePer1000": 3.57433906219956
+    },
+    {
+      "Quintile": "Q3",
+      "AssignedAuthorities": 48,
+      "AvailableRates": 48,
+      "MeanRatePer1000": 3.7766765221503933
+    },
+    {
+      "Quintile": "Q4",
+      "AssignedAuthorities": 47,
+      "AvailableRates": 47,
+      "MeanRatePer1000": 4.31843946504497
+    },
+    {
+      "Quintile": "Q5 Most deprived",
+      "AssignedAuthorities": 51,
+      "AvailableRates": 51,
+      "MeanRatePer1000": 5.0963496251303795
+    }
+  ],
+  "quintile_coverage": {
+    "total_infant_authorities": 296,
+    "assigned": 241,
+    "unassigned": 55,
+    "available_and_assigned": 241
+  },
+  "quintile_gap": {
+    "Q5MinusQ1Per1000": 1.7224476399640816,
+    "Q5OverQ1": 1.5105209480112336
+  },
+  "interpretation": "Unweighted authority means. Ecological association, not causation.",
+  "source_discrepancy": "Supplied S2/dashboard KPI image shows CI 4.08\u20134.27. CSV CI rounds to 4.07\u20134.26."
+}

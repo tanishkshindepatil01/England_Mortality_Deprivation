@@ -1,3 +1,0 @@
-# Core analysis and tests use only the Python standard library.
-# No third-party packages are required for scripts/analyze.py.
-# Jupyter is optional for opening notebooks/project_walkthrough.ipynb.
